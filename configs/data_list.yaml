@@ -1,0 +1,56 @@
+split1:
+    data_path: ./dataset
+    known_classes: ['real', 'celeba_ProGAN_seed0', 'celeba_StarGAN', 'FFHQ_StyleGAN3_r', 'FFHQ_StyleGAN3_t', 'SNGAN_imagenet', 'SAGAN_imagenet', 'lsun_ProGAN_seed0', 'lsun_MMDGAN', 'FaceSwap', 'FSGAN', 'stylegan_cat', 'stylegan3_cat', 'stylegan_bus', 'progan_bus']
+    unknown_classes1: ['celeba_ProGAN_seed1', 'celeba_ProGAN_seed2', 'celeba_ProGAN_seed3', 'celeba_ProGAN_seed4', 'celeba_ProGAN_seed5','lsun_ProGAN_seed1', 'lsun_ProGAN_seed2', 'lsun_ProGAN_seed3', 'lsun_ProGAN_seed4', 'lsun_ProGAN_seed5']
+    unknown_classes2: ['celeba_MMDGAN', 'celeba_AttGAN', 'celeba_SNGAN', 'celeba_InfomaxGAN', 'FFHQ_StyleGAN2', 'CelebA_HQ_ProGAN', 'CelebA_HQ_StyleGAN', 'BigGAN_imagenet', 'S3GAN_imagenet', 'ContraGAN_imagenet', 'lsun_SNGAN', 'lsun_InfomaxGAN', 'Faceshifter', 'wav2lip', 'stylegan2_cat', 'progan_cat', 'mmdgan_cat', 'sngan_cat', 'stylegan2_bus', 'stylegan3_bus', 'mmdgan_bus', 'sngan_bus']
+    unknown_classes3: ['stylegan_airplane', 'stylegan_bridge', 'stylegan_church_outdoor', 'stylegan_classroom', 'stylegan_cow', 'stylegan_kitchen', 'stylegan_sheep', 'stylegan3_airplane', 'stylegan3_bridge', 'stylegan3_church_outdoor', 'stylegan3_classroom', 'stylegan3_cow', 'stylegan3_kitchen', 'stylegan3_sheep', 'progan_airplane', 'progan_bridge', 'progan_church_outdoor', 'progan_classroom', 'progan_cow', 'progan_kitchen', 'progan_sheep']
+    train_collection: split1_train
+    val_collection: split1_val
+    test_data_path: ./dataset/split1_test/annotations/split1_test.txt
+    out_data_path: ./dataset/split1_test/annotations/split1_test_out.txt
+
+split2:
+    data_path: ./dataset
+    known_classes: ['real', 'celeba_ProGAN_seed1', 'celeba_InfomaxGAN', 'CelebA_HQ_StyleGAN', 'FFHQ_StyleGAN3_t', 'ContraGAN_imagenet', 'SNGAN_imagenet', 'lsun_ProGAN_seed1', 'lsun_SNGAN', 'Faceshifter', 'FSGAN', 'sngan_cat', 'stylegan2_cat', 'stylegan_bus', 'stylegan3_bus']
+    unknown_classes1: ['celeba_ProGAN_seed0', 'celeba_ProGAN_seed2', 'celeba_ProGAN_seed3', 'celeba_ProGAN_seed4', 'celeba_ProGAN_seed5', 'lsun_ProGAN_seed0', 'lsun_ProGAN_seed2', 'lsun_ProGAN_seed3', 'lsun_ProGAN_seed4', 'lsun_ProGAN_seed5']
+    unknown_classes2: ['celeba_MMDGAN', 'celeba_StarGAN', 'celeba_AttGAN', 'celeba_SNGAN', 'FFHQ_StyleGAN2', 'FFHQ_StyleGAN3_r', 'CelebA_HQ_ProGAN', 'BigGAN_imagenet', 'SAGAN_imagenet', 'S3GAN_imagenet', 'lsun_MMDGAN', 'lsun_InfomaxGAN', 'FaceSwap', 'wav2lip', 'stylegan_cat', 'stylegan3_cat', 'progan_cat', 'mmdgan_cat', 'stylegan2_bus', 'progan_bus', 'mmdgan_bus', 'sngan_bus']
+    unknown_classes3:  ['stylegan_airplane', 'stylegan_bridge', 'stylegan_church_outdoor', 'stylegan_classroom', 'stylegan_cow', 'stylegan_kitchen', 'stylegan_sheep', 'stylegan3_airplane', 'stylegan3_bridge', 'stylegan3_church_outdoor', 'stylegan3_classroom', 'stylegan3_cow', 'stylegan3_kitchen', 'stylegan3_sheep', 'sngan_airplane', 'sngan_bridge', 'sngan_church_outdoor', 'sngan_classroom', 'sngan_cow', 'sngan_kitchen', 'sngan_sheep']
+    train_collection: split2_train
+    val_collection: split2_val
+    test_data_path: ./dataset/split2_test/annotations/split2_test.txt
+    out_data_path: ./dataset/split2_test/annotations/split2_test_out.txt
+
+
+split3:
+    data_path: ./dataset
+    known_classes: ['real', 'celeba_ProGAN_seed2', 'celeba_AttGAN', 'CelebA_HQ_ProGAN', 'FFHQ_StyleGAN3_t', 'S3GAN_imagenet', 'SNGAN_imagenet', 'lsun_ProGAN_seed2', 'lsun_InfomaxGAN', 'FaceSwap', 'Faceshifter', 'progan_cat', 'sngan_cat', 'progan_bus', 'mmdgan_bus']
+    unknown_classes1:  ['celeba_ProGAN_seed0', 'celeba_ProGAN_seed1', 'celeba_ProGAN_seed3', 'celeba_ProGAN_seed4', 'celeba_ProGAN_seed5', 'lsun_ProGAN_seed0', 'lsun_ProGAN_seed1', 'lsun_ProGAN_seed3', 'lsun_ProGAN_seed4', 'lsun_ProGAN_seed5']
+    unknown_classes2: ['celeba_MMDGAN', 'celeba_StarGAN', 'celeba_SNGAN', 'celeba_InfomaxGAN', 'FFHQ_StyleGAN2', 'FFHQ_StyleGAN3_r', 'CelebA_HQ_StyleGAN', 'BigGAN_imagenet', 'SAGAN_imagenet', 'ContraGAN_imagenet', 'lsun_SNGAN', 'lsun_MMDGAN', 'wav2lip', 'FSGAN', 'stylegan_cat', 'stylegan2_cat', 'stylegan3_cat', 'mmdgan_cat', 'stylegan_bus', 'stylegan2_bus', 'stylegan3_bus', 'sngan_bus']
+    unknown_classes3:  ['mmdgan_airplane', 'mmdgan_bridge', 'mmdgan_church_outdoor', 'mmdgan_classroom', 'mmdgan_cow', 'mmdgan_kitchen', 'mmdgan_sheep', 'sngan_airplane', 'sngan_bridge', 'sngan_church_outdoor', 'sngan_classroom', 'sngan_cow', 'sngan_kitchen', 'sngan_sheep', 'progan_airplane', 'progan_bridge', 'progan_church_outdoor', 'progan_classroom', 'progan_cow', 'progan_kitchen', 'progan_sheep']
+    train_collection: split3_train
+    val_collection: split3_val
+    test_data_path: ./dataset/split3_test/annotations/split3_test.txt
+    out_data_path: ./dataset/split3_test/annotations/split3_test_out.txt
+
+split4:
+    data_path: ./dataset
+    known_classes: ['real', 'celeba_ProGAN_seed3', 'celeba_SNGAN', 'FFHQ_StyleGAN3_r', 'CelebA_HQ_ProGAN', 'BigGAN_imagenet', 'ContraGAN_imagenet', 'lsun_ProGAN_seed3', 'lsun_SNGAN', 'wav2lip', 'FSGAN', 'progan_cat', 'mmdgan_cat', 'sngan_bus', 'mmdgan_bus']
+    unknown_classes1:  ['celeba_ProGAN_seed0', 'celeba_ProGAN_seed1', 'celeba_ProGAN_seed2', 'celeba_ProGAN_seed4', 'celeba_ProGAN_seed5', 'lsun_ProGAN_seed0', 'lsun_ProGAN_seed1', 'lsun_ProGAN_seed2', 'lsun_ProGAN_seed4', 'lsun_ProGAN_seed5']
+    unknown_classes2: ['celeba_MMDGAN', 'celeba_StarGAN', 'celeba_AttGAN', 'celeba_InfomaxGAN', 'FFHQ_StyleGAN2', 'CelebA_HQ_StyleGAN', 'FFHQ_StyleGAN3_t', 'SAGAN_imagenet', 'S3GAN_imagenet', 'SNGAN_imagenet', 'lsun_MMDGAN', 'lsun_InfomaxGAN', 'FaceSwap', 'Faceshifter', 'stylegan_cat', 'stylegan2_cat', 'stylegan3_cat', 'sngan_cat', 'stylegan_bus', 'stylegan2_bus', 'stylegan3_bus', 'progan_bus']
+    unknown_classes3:  ['mmdgan_airplane', 'mmdgan_bridge', 'mmdgan_church_outdoor', 'mmdgan_classroom', 'mmdgan_cow', 'mmdgan_kitchen', 'mmdgan_sheep', 'sngan_airplane', 'sngan_bridge', 'sngan_church_outdoor', 'sngan_classroom', 'sngan_cow', 'sngan_kitchen', 'sngan_sheep', 'progan_airplane', 'progan_bridge', 'progan_church_outdoor', 'progan_classroom', 'progan_cow', 'progan_kitchen', 'progan_sheep']
+    train_collection: split4_train
+    val_collection: split4_val
+    test_data_path: ./dataset/split4_test/annotations/split4_test.txt
+    out_data_path: ./dataset/split4_test/annotations/split4_test_out.txt
+
+
+split5:
+    data_path: ./dataset
+    known_classes: ['real', 'celeba_ProGAN_seed4', 'celeba_AttGAN', 'CelebA_HQ_StyleGAN', 'FFHQ_StyleGAN3_t', 'BigGAN_imagenet', 'ContraGAN_imagenet', 'lsun_ProGAN_seed4', 'lsun_InfomaxGAN', 'wav2lip', 'FaceSwap', 'stylegan_cat', 'progan_cat', 'mmdgan_bus', 'progan_bus']
+    unknown_classes1:  ['celeba_ProGAN_seed0', 'celeba_ProGAN_seed1', 'celeba_ProGAN_seed2', 'celeba_ProGAN_seed3', 'celeba_ProGAN_seed5', 'lsun_ProGAN_seed0', 'lsun_ProGAN_seed1', 'lsun_ProGAN_seed2', 'lsun_ProGAN_seed3', 'lsun_ProGAN_seed5']
+    unknown_classes2: ['celeba_MMDGAN', 'celeba_StarGAN', 'celeba_SNGAN', 'celeba_InfomaxGAN', 'FFHQ_StyleGAN2', 'FFHQ_StyleGAN3_r', 'CelebA_HQ_ProGAN', 'SAGAN_imagenet', 'S3GAN_imagenet', 'SNGAN_imagenet', 'lsun_SNGAN', 'lsun_MMDGAN', 'Faceshifter', 'FSGAN', 'stylegan2_cat', 'stylegan3_cat', 'mmdgan_cat', 'sngan_cat', 'stylegan_bus', 'stylegan2_bus', 'stylegan3_bus', 'sngan_bus']
+    unknown_classes3:  ['mmdgan_airplane', 'mmdgan_bridge', 'mmdgan_church_outdoor', 'mmdgan_classroom', 'mmdgan_cow', 'mmdgan_kitchen', 'mmdgan_sheep', 'stylegan_airplane', 'stylegan_bridge', 'stylegan_church_outdoor', 'stylegan_classroom', 'stylegan_cow', 'stylegan_kitchen', 'stylegan_sheep', 'progan_airplane', 'progan_bridge', 'progan_church_outdoor', 'progan_classroom', 'progan_cow', 'progan_kitchen', 'progan_sheep']
+    train_collection: split5_train
+    val_collection: split5_val
+    test_data_path: ./dataset/split5_test/annotations/split5_test.txt
+    out_data_path: ./dataset/split5_test/annotations/split5_test_out.txt
