@@ -18,9 +18,8 @@ Despite the remarkable progress in generative technology, the Janus-faced issues
 
 ## Dataset
 The whole dataset in this work will be released soon. Download, unzip, and put the dataset into the directory ``./dataset/``.
-As the size of the whole dataset is up to 50GB. 
 
-We provide a small subset of the datset in [DatasetSubset](https://drive.google.com/file/d/1gZ-pCXE8_CSUr3pLLORtVBQRuX0ATv46/view?usp=drive_link). You can use this for the evaluation and visualization demos below. Also, download and put the subset into the directory ``./dataset/``.
+As the size of the whole dataset is up to 50GB. We provide a small subset of the datset in [DatasetSubset](https://drive.google.com/file/d/1gZ-pCXE8_CSUr3pLLORtVBQRuX0ATv46/view?usp=drive_link). You can use this for the evaluation and visualization demos below. Also, download and put the subset into the directory ``./dataset/``.
 
 The annotation files are in ``./dataset`` and could be downloaded along with the project. The organization is as follows: 
   ```
