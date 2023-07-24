@@ -17,7 +17,7 @@ Despite the remarkable progress in generative technology, the Janus-faced issues
 - pytorch 1.10.0
 
 ## Dataset
-The whole dataset is [Here](https://zenodo.org/record/8103474). Download, unzip, and put the dataset into the directory ``./dataset/``.
+The whole dataset is hosted [here](https://zenodo.org/record/8103474). Download, unzip, and put the dataset into the directory ``./dataset/``.
 
 As the size of the whole dataset is up to 50GB. We provide a small subset of the datset in [DatasetSubset](https://drive.google.com/file/d/1gZ-pCXE8_CSUr3pLLORtVBQRuX0ATv46/view?usp=drive_link). You can use this for the evaluation and visualization demos below. Also, download and put the subset into the directory ``./dataset/``.
 
