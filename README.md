@@ -19,7 +19,7 @@ Despite the remarkable progress in generative technology, the Janus-faced issues
 ## Dataset
 The whole dataset is hosted [here](https://zenodo.org/record/8103474). Download, unzip, and put the dataset into the directory ``./dataset/``.
 
-As the size of the whole dataset is up to 50GB. We provide a small subset of the datset in [DatasetSubset](https://drive.google.com/file/d/1gZ-pCXE8_CSUr3pLLORtVBQRuX0ATv46/view?usp=drive_link). You can use this for the evaluation and visualization demos below. Also, download and put the subset into the directory ``./dataset/``.
+As the size of the whole dataset is up to 50GB. We provide a small subset of the datset in [DatasetSubset](https://drive.google.com/file/d/1aPHrtppumWCLN2VfJ5KNoYAbYxqP9-OU/view?usp=drive_link). You can use this for the evaluation and visualization demos below. Also, download and put the subset into the directory ``./dataset/``.
 
 The annotation files are in ``./dataset`` and could be downloaded along with the project. The organization is as follows: 
   ```
@@ -52,7 +52,7 @@ where `split{id}_train.txt, split{id}_val.txt, split{id}_test.txt` are the annot
   ```
 
 ## Checkpoints 
-  - We provide checkpoints trained on five splits of the dataset in [Checkpoints](https://drive.google.com/drive/folders/1h_-U9VhgeCWJKWfobPhd64u4YCS47-Br?usp=drive_link). Download and put files into the directory ``./checkpoints``.
+  - We provide checkpoints trained on five splits of the dataset in [Checkpoints](https://drive.google.com/drive/folders/1o6oPWd6zNxwUlquuFt7owGU0XfWtemRh?usp=drive_link). Download and put files into the directory ``./checkpoints``.
 Each file ``split#/model.pth`` corresponds to the weight trained on ``split#``. The directory also includes augmentation models and model weights for split1 and split2 during the progressive training progress.
 
 ## Demo
